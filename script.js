@@ -1397,8 +1397,12 @@ function renderScripts() {
   const data = filteredData();
 
   data.forEach(s => {
+  try {
     grid.appendChild(cardTemplate(s));
-  });
+  } catch (error) {
+    console.error("Card error:", s.id, error);
+  }
+});
 
   $("#result-summary").textContent =
     `Showing ${data.length} of ${scriptData.length} skin scripts`;
