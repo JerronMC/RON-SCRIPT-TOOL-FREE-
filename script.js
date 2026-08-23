@@ -13,17 +13,27 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const scriptData = [
-  {
-    "id": "argus_titan",
-    "title": "Argus x Collector Titan",
-    "url": "https://sfile.co/UR4EPrdbUk3",
-    "hero": "Argus",
-    "type": "Crossover",
-    "tags": [
-      "collector"
-    ]
-  },
-  {
+  // ARGUS
+
+  { 
+    id: "argus_titan",
+    title: "Argus x Collector Titan",
+    url: "https://sfile.co/UR4EPrdbUk3" },
+    hero: "Argus", 
+    type: "crossover", 
+    tags: ["Collector", "Titan"]
+}, 
+{
+  { id: "vergil_argus_vip", 
+    title: "Vergil x Argus — VIP", 
+    url: "https://www.mediafire.com/file/7onrit7xsnvnhz6/Vergil+x+Argus.zip/file", 
+    accessOnly: true, 
+    accessMessage: "To get Access Download on Vergil Skin Script you need to ask The Creator On Discord or TikTok: ranzee.ron\n\nDiscord: larkdev\n\nDM it to get permission to download." },
+    hero: "Argus", 
+    type: "Access"
+    tags: ["VIP", "access"]
+}, 
+{
   id: "argus_aizen",
   title: "Argus x Sosuke Aizen",
   url: "https://sfile.co/ms4tmWTzw7j",
