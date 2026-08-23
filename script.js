@@ -24,6 +24,46 @@ const scriptData = [
     ]
   },
   {
+  id: "argus_aizen",
+  title: "Argus x Sosuke Aizen",
+  url: "https://sfile.co/ms4tmWTzw7j",
+  hero: "Argus",
+  type: "Crossover",
+  tags: ["aizen", "bleach"]
+},
+{
+  id: "argus_meliodas",
+  title: "Argus x Meliodas",
+  url: "https://sfile.co/bPzuZb4ngls",
+  hero: "Argus",
+  type: "Crossover",
+  tags: ["meliodas", "seven-deadly-sins"]
+},
+{
+  id: "argus_rimuru",
+  title: "Argus x Rimuru",
+  url: "https://sfile.co/ZusTdAkONGg",
+  hero: "Argus",
+  type: "Crossover",
+  tags: ["rimuru", "tensei-slime"]
+},
+{
+  id: "argus_basic",
+  title: "Argus Basic",
+  url: "https://sfile.co/H4YSK",
+  hero: "Argus",
+  type: "Basic",
+  tags: ["basic"]
+},
+{
+  id: "argus_aartox",
+  title: "Argus x Aartox",
+  url: "https://sfile.co/AeRRXUKv2AM",
+  hero: "Argus",
+  type: "Crossover",
+  tags: ["aartox"]
+},
+  {
     "id": "argus_hidan2",
     "title": "Argus x Hidan 2 (Transform)",
     "url": "https://www.mediafire.com/file/0lmz5xm85oks3z8/ARGUS_X_HIDAN_2_%2528TRANSFORM%2529_BY_RON_replace_Default.zip/file",
