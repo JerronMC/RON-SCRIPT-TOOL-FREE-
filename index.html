@@ -73,9 +73,9 @@
         </div>
       </div>
 
-      <div class="section-head"><div><h2>Skin Script Collection</h2><p id="result-summary">Loading your library…</p></div><div class="view-toggle"><button class="view-btn active" data-view="grid" title="Grid view"><i class="fa-solid fa-grip"></i></button><button class="view-btn" data-view="compact" title="Compact view"><i class="fa-solid fa-list"></i></button></div></div>
+      <div class="section-head"><div><h2>Skin Script Collection</h2><p id="result-summary">Loading your library…</p></div><div class="view-toggle"><button class="view-btn active" data-view="grid"><i class="fa-solid fa-square-full"></i></button><button class="view-btn" data-view="compact"><i class="fa-solid fa-list"></i></button></div></div>
       <div id="scripts-grid" class="scripts-grid"></div>
-      <div id="empty-state" class="empty-state glass" hidden><div><i class="fa-solid fa-box-open"></i></div><h3>Nothing found</h3><p>Try another hero, skin name, category, or reset your filters.</p><button class="ghost-btn" id="empty-reset">Reset filters</button></div>
+      <div id="empty-state" class="empty-state glass" hidden><div><i class="fa-solid fa-box-open"></i></div><h3>Nothing found</h3><p>Try another hero, skin name, category, or reset your filters.</p></div>
     </section>
 
     <section id="tab-heroes" class="tab-panel">
@@ -91,10 +91,10 @@
 
     <section id="tab-updates" class="tab-panel">
       <div class="updates-grid">
-        <article class="update-card glass featured"><span class="update-tag">ULTIMATE</span><h3>10× smarter library engine</h3><p>Client-side search, filters, favorites, hero grouping, sorting, responsive cards, and safe fallback behavior are now built into the hub.</p></article>
+        <article class="update-card glass featured"><span class="update-tag">ULTIMATE</span><h3>10× smarter library engine</h3><p>Client-side search, filters, favorites, hero grouping, sorting, realtime metrics.</p></article>
         <article class="update-card glass"><span class="update-tag">NEW</span><h3>Hero Vault</h3><p>Hero-focused discovery lets you jump from a hero to all matching skin scripts in one tap.</p></article>
-        <article class="update-card glass"><span class="update-tag">NEW</span><h3>Skin metadata</h3><p>Existing entries are automatically classified into hero, skin type, and useful tags without altering their download URLs.</p></article>
-        <article class="update-card glass"><span class="update-tag">NEW</span><h3>Offline-first UI</h3><p>Theme, favorites, layout, and preferences survive reloads, while Firebase errors no longer destroy the whole page.</p></article>
+        <article class="update-card glass"><span class="update-tag">NEW</span><h3>Skin metadata</h3><p>Existing entries are automatically classified into hero, skin type, and useful tags without and need for manual curation.</p></article>
+        <article class="update-card glass"><span class="update-tag">NEW</span><h3>Offline-first UI</h3><p>Theme, favorites, layout, and preferences survive reloads, while Firebase errors no longer break the app.</p></article>
       </div>
     </section>
   </main>
@@ -112,7 +112,7 @@
     <button class="modal-close" data-close="comments-modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
     <div class="modal-title"><span class="eyebrow">COMMUNITY</span><h2 id="comments-title">Comments</h2></div>
     <div id="comment-list" class="comment-list"></div>
-    <div class="comment-form"><input id="guest-name" placeholder="Your name (optional)"><textarea id="guest-comment" rows="3" placeholder="Drop a comment..."></textarea><button class="primary-btn" id="submit-comment">Post comment</button></div>
+    <div class="comment-form"><input id="guest-name" placeholder="Your name (optional)"><textarea id="guest-comment" rows="3" placeholder="Drop a comment..."></textarea><button class="primary-btn" id="submit-comment">Post</button></div>
   </dialog>
 
   <dialog id="settings-modal" class="modal glass">
@@ -126,8 +126,8 @@
     </div>
   </dialog>
 
-  <template id="skin-card-template"><article class="script-card glass"><div class="card-glow"></div><div class="card-top"><span class="skin-badge"></span><button class="favorite-btn" title="Favorite"><i class="fa-regular fa-star"></i></button></div><div class="card-avatar"><span class="hero-letter"></span></div><div class="card-header"><div><h3 class="skin-title"></h3><p class="hero-name"></p></div></div><div class="tag-row"></div><div class="card-stats"><button class="stat-btn like-btn"><i class="fa-regular fa-heart"></i><span class="likes">0</span></button><button class="stat-btn comment-btn"><i class="fa-regular fa-comment"></i><span class="comments">0</span></button><span class="stat-btn rating"><i class="fa-solid fa-star"></i><span class="rating-value">0.0</span></span><span class="stat-btn"><i class="fa-regular fa-eye"></i><span class="views">0</span></span></div><div class="card-actions"><button class="ghost-btn details-btn">Details</button><a class="primary-btn download-btn" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-download"></i> Download</a></div></article></template>
+  <template id="skin-card-template"><article class="script-card glass"><div class="card-glow"></div><div class="card-top"><span class="skin-badge"></span><button class="favorite-btn" title="Favorite"><i class="fa-regular fa-star"></i></button></div><div class="card-hero"><div class="hero-orb"><span class="hero-letter"></span></div><strong class="hero-name"></strong></div><div class="card-body"><h3 class="skin-title"></h3><div class="tag-row"></div></div><div class="card-bottom"><div class="stats"><span title="Likes"><i class="fa-solid fa-heart"></i> <b class="likes">0</b></span><span title="Views"><i class="fa-solid fa-eye"></i> <b class="views">0</b></span></div><div class="actions"><button class="icon-btn comment-btn" title="Comments"><i class="fa-solid fa-comments"></i></button><button class="icon-btn details-btn" title="Details"><i class="fa-solid fa-info"></i></button><button class="primary-btn download-btn" title="Download"><i class="fa-solid fa-download"></i></button></div></div></article></template>
 
-  <script type="module" src="script.js"></script>
+  <script type="module" src="script.js?v=20260823"></script>
 </body>
 </html>
