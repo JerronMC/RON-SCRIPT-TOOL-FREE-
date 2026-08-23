@@ -1250,7 +1250,7 @@ function filteredData() {
 function getAccessMessage(s) {
   return (
     s.accessMessage ||
-    "Access required. Please contact the creator for permission to download."
+    "Access required. Please contact the creator for permission to download and credit to chariel on discord."
   );
 }
 
@@ -1290,7 +1290,7 @@ function cardTemplate(s) {
   $(".tag-row", card).innerHTML = (s.tags || [])
     .slice(0, 4)
     .map(tag => `<span class="tag">#${escapeHTML(tag)}</span>`)
-    .join("");
+    .join(
 
   $(".likes", card).textContent = s.likes || 0;
   $(".views", card).textContent = s.views || 0;
