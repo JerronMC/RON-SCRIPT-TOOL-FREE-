@@ -30,7 +30,7 @@ const scriptData = [
     accessOnly: true, 
     accessMessage: "To get Access Download on Vergil Skin Script you need to ask The Creator On Discord or TikTok: ranzee.ron\n\nDiscord: larkdev\n\nDM it to get permission to download." },
     hero: "Argus", 
-    type: "Access"
+    type: "Access", 
     tags: ["VIP", "access"]
 }, 
 {
