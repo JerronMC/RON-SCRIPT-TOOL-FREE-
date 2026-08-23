@@ -90,16 +90,7 @@ const scriptData = [
     type: "Crossover",
     tags: ["aizen", "bleach"]
   },
-
-  {
-    id: "argus_meliodas",
-    title: "Argus x Meliodas",
-    url: "https://sfile.co/bPzuZb4ngls",
-    hero: "Argus",
-    type: "Crossover",
-    tags: ["meliodas", "seven-deadly-sins"]
-  },
-
+  
   {
     id: "argus_rimuru",
     title: "Argus x Rimuru",
