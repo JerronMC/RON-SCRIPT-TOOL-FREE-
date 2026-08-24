@@ -2360,7 +2360,7 @@ if (debugNavBtn) debugNavBtn.addEventListener("click", () => { state.debug = tru
 // =========================================================
 // 3-STEP ACCESS GATE
 // =========================================================
-const TURNSTILE_SITE_KEY = "PASTE_YOUR_TURNSTILE_SITE_KEY_HERE";
+const TURNSTILE_SITE_KEY = "0x4AAAAAAEZkaNXASRAuJRd_m2lA1cG2Uk4";
 const GATE_STORAGE_KEY = "ron_gate_complete_v3";
 const gateState = { step: 1, captchaPassed: false, captchaToken: "", widgetId: null };
 
